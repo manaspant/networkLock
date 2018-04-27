@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CooperativeLock", "CooperativeLock.csproj", "{55C6A050-A0C0-3586-AEC1-DDE0E29A7C8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CooperativeLock.Plugins", "CooperativeLock.Plugins.csproj", "{DF4CBB25-AF55-023A-9E1B-1778CCDC76B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CooperativeLock.Editor", "CooperativeLock.Editor.csproj", "{E3C57F40-6336-4087-4435-27F780241707}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55C6A050-A0C0-3586-AEC1-DDE0E29A7C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55C6A050-A0C0-3586-AEC1-DDE0E29A7C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55C6A050-A0C0-3586-AEC1-DDE0E29A7C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55C6A050-A0C0-3586-AEC1-DDE0E29A7C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF4CBB25-AF55-023A-9E1B-1778CCDC76B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4CBB25-AF55-023A-9E1B-1778CCDC76B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4CBB25-AF55-023A-9E1B-1778CCDC76B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4CBB25-AF55-023A-9E1B-1778CCDC76B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3C57F40-6336-4087-4435-27F780241707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3C57F40-6336-4087-4435-27F780241707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3C57F40-6336-4087-4435-27F780241707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3C57F40-6336-4087-4435-27F780241707}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
