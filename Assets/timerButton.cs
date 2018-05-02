@@ -75,7 +75,6 @@ public class timerButton : MonoBehaviour
             {
                 Debug.Log("Not on time! Try again! Or you already solved");
                 hasPressed = false;
-                gameSolved = false;
                 onePressed = false;
                 twoPressed = false;
             }
