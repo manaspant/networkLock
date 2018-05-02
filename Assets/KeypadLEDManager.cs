@@ -7,8 +7,6 @@ public class KeypadLEDManager : MonoBehaviour {
 	public int lightFactor = 0;
 
 	public Light LED;
-
-
 	public bool changeColor = false; 
 
 	// Use this for initialization

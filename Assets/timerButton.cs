@@ -13,6 +13,7 @@ public class timerButton : MonoBehaviour
     bool twoPressed = false;
     float start_time = 0;
     public KeypadLEDManager ledManager; 
+    public KeypadLEDManager ledManager2; 
 
 
     // Use this for initialization
@@ -20,6 +21,8 @@ public class timerButton : MonoBehaviour
     {
         GameObject g = GameObject.Find("KeypadLED");
         ledManager = g.GetComponent<KeypadLEDManager>();
+        GameObject g2 = GameObject.Find("KeypadLED2");
+        ledManager2 = g2.GetComponent<KeypadLEDManager>();
 
     }
 
@@ -44,12 +47,13 @@ public class timerButton : MonoBehaviour
                 if (hit.transform.gameObject.name == "Keypad2" && onePressed == true)
                 {
                     hasPressed = true;
+                    //twoPressed = true;
                 }
 
                 if (hit.transform.gameObject.name == "Keypad1")
                 {
                     onePressed = true;
-                    StartCoroutine(CountdownTo((3)));
+                    StartCoroutine(CountdownTo((2)));
                 }
             }
         }
@@ -65,10 +69,15 @@ public class timerButton : MonoBehaviour
                 gameSolved = true;
                 Debug.Log("Puzzle Solved!!!!!");
                 ledManager.changeColor = true;
+                ledManager2.changeColor = true;
             }
             else
             {
                 Debug.Log("Not on time! Try again! Or you already solved");
+                hasPressed = false;
+                gameSolved = false;
+                onePressed = false;
+                twoPressed = false;
             }
         }
 
